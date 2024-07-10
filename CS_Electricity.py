@@ -64,7 +64,7 @@ zip_code = int(input("Enter the zip code: "))
 pge_area =check_pge_service_area(zip_code)
 cca_area=check_cca(zip_code)
 if pge_area is not None:
-  print("The zip code is PG&E Service Area")
+  print("The zip code is PG&E Service Area ")
 else:
   print("The zip code is not in the service area")
 print(cca_area)
@@ -79,7 +79,7 @@ if cca_area is None:
    plan_names=unbundled(bundle,sector)
    print(plan_names)
   else:
-    print("Enter valid input")
+    print("Please enter valid input")
 
 else:
   plans=match_plan(cca_area)
