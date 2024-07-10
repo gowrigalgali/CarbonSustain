@@ -88,7 +88,7 @@ else:
       plan_names.extend(df['Plan'].tolist())
   print(plan_names)
 
-  sector=input("Enter the sector")
+  sector=input("Enter your sector")
   result=cca_sector(sector,plan_names)
   print(result)
 
